@@ -1,3 +1,5 @@
+[![Continuous Integration](https://github.com/onoki-o/ase-practice2/actions/workflows/ci.yml/badge.svg)](https://github.com/onoki-o/ase-practice2/actions/workflows/ci.yml)
+
 # Estimating Text Similarity by Shingling
 
 **Authors:** Ármin Zavada, Kristóf Marussy
@@ -121,8 +123,6 @@ This second vector has the same magnitude as the previous one. The scalar produc
 * `2 * 2` (for shingle `a`, `n`) +
 * `2 * 2` (for shingle `n`, `a`)
 
-
-[![Continuous Integration](https://github.com/onoki-o/ase-practice2/actions/workflows/ci.yml/badge.svg)](https://github.com/onoki-o/ase-practice2/actions/workflows/ci.yml)
 Thus, the scalar product evaluates to 9. This makes the cosine similarity equal to ![Cosine similarity equation](assets/cosine-similarity-example.png). Overall, one can say that the two documents `Banana` and `Ananas` are pretty similar.
 
 ### Applications
